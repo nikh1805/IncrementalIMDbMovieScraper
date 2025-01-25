@@ -39,7 +39,7 @@ The scraper works in batches and makes requests to fetch movie data in chunks. T
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.8.x
 - Django 3.x or higher
 
 ### Clone the repository
