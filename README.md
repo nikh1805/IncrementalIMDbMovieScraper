@@ -28,8 +28,9 @@ The scraper works in batches and makes requests to fetch movie data in chunks. T
 
 ## Tech Stack
 
+- **Python**: Programming Language used. 
 - **Django**: Web framework used to build the application.
-- **Django REST Framework (DRF)**: For building REST APIs.
+- **Django REST Framework (DRF)**: To build REST APIs.
 - **Django Q**: For handling asynchronous background tasks.
 - **BeautifulSoup**: For web scraping.
 - **Selenium (with ChromeDriver)**: To interact with dynamic content on websites such as load more movies.
@@ -44,8 +45,8 @@ The scraper works in batches and makes requests to fetch movie data in chunks. T
 ### Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/nikh1805/IncrementalIMDbMovieScraper
+cd IncrementalIMDbMovieScraper
 ```
 
 ### Create Environment and Install Dependencies
